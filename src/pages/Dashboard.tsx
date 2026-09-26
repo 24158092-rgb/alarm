@@ -82,8 +82,8 @@ export default function Dashboard() {
             <p className="label-caps flex items-center gap-2 text-violet">
               <span aria-hidden className="pulse-ring size-1.5 rounded-full bg-crit text-crit" /> Alert signal field
             </p>
-            <h1 className="mt-4 text-4xl leading-[1.05] font-extralight tracking-tight sm:text-6xl">
-              From Official Alert to <span className="neon-text font-normal">Last-Mile Action</span>
+            <h1 className="mt-4 font-display text-5xl leading-[1] font-normal tracking-tight sm:text-7xl">
+              From Official Alert to <span className="neon-text font-medium italic">Last-Mile Action</span>
             </h1>
             <p className="mt-4 max-w-lg text-base text-ink-2 sm:text-lg">
               Transform complex emergency warnings into clear, accessible, multilingual and low-bandwidth communication — without changing their meaning or urgency.

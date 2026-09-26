@@ -58,7 +58,7 @@ export function PageHeader({ eyebrow, title, description, actions }: { eyebrow: 
           <span aria-hidden className="size-1.5 rounded-full bg-accent-2 shadow-[0_0_10px_var(--accent-2)]" />
           {eyebrow}
         </p>
-        <h1 className="mt-2 text-3xl font-light tracking-tight sm:text-4xl">{title}</h1>
+        <h1 className="mt-2 font-display text-4xl font-normal tracking-tight sm:text-5xl">{title}</h1>
         {description && <p className="mt-2 max-w-3xl text-ink-2">{description}</p>}
       </div>
       {actions && <div className="flex flex-wrap gap-2">{actions}</div>}
