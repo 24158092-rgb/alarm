@@ -64,7 +64,7 @@ React 19 · TypeScript (strict) · Vite · Tailwind CSS v4 · Framer Motion · R
 ## How to run
 
 ```bash
-cd lastmile
+cd alarm
 npm install
 npm run dev      # http://localhost:5173
 npm run build    # type-checks and builds to dist/
